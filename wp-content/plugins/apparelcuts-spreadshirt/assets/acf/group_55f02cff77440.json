@@ -1,0 +1,82 @@
+{
+    "key": "group_55f02cff77440",
+    "title": "Promotion Settings",
+    "fields": [
+        {
+            "key": "field_55f02d1a638a6",
+            "label": "Start Date",
+            "name": "sfw-promotion-start",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "U",
+            "first_day": 1
+        },
+        {
+            "key": "field_55f02d5e638a7",
+            "label": "End Date",
+            "name": "sfw-promotion-stop",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "U",
+            "first_day": 1
+        },
+        {
+            "key": "field_57613ba207a0d",
+            "label": "Choose Promotion Locations:",
+            "name": "sfw-promotion-locations",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "allow_custom": 0,
+            "default_value": [
+                "default"
+            ],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sfw-promotion"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "private": null,
+    "modified": 1555343015
+}

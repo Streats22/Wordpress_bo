@@ -1,0 +1,726 @@
+{
+    "key": "group_5c5ac36da0152",
+    "title": "Parameter",
+    "fields": [
+        {
+            "key": "field_5c5acc8200227",
+            "label": "Advice",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Please choose these parameters wisely. Some parameters have a lower priority than others and might be ignored completely.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5c93c0235c934",
+            "label": "Product",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_productid",
+            "label": "Product Id",
+            "name": "productId",
+            "type": "text",
+            "instructions": "A valid Spreadshirt Product ID",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_producttypeid",
+            "label": "ProductType ID",
+            "name": "productTypeId",
+            "type": "select",
+            "instructions": "A Spreadshirt ProductType ID",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_productid",
+                        "operator": "==empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_appearanceid",
+            "label": "Appearance Id",
+            "name": "appearanceId",
+            "type": "select",
+            "instructions": "A valid Spreadshirt Appearance ID",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_viewid",
+            "label": "View Id",
+            "name": "viewId",
+            "type": "select",
+            "instructions": "A valid Spreadshirt View ID.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_sizeid",
+            "label": "Size Id",
+            "name": "sizeId",
+            "type": "select",
+            "instructions": "A valid Spreadshirt Size ID. Preselects the choosen Size.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5c93bffb5c932",
+            "label": "Text",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_tx1",
+            "label": "First line of text",
+            "name": "tx1",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_tx2",
+            "label": "Second line of text",
+            "name": "tx2",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_tx3",
+            "label": "Third line of text",
+            "name": "tx3",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c93bc398769a",
+            "label": "Text Color Mode",
+            "name": "text_color_mode",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "printcolorids": "Printcolor Id",
+                "hex": "RGB Color"
+            },
+            "allow_null": 0,
+            "default_value": "hex",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_textcolorrgb",
+            "label": "Text Color",
+            "name": "textColorRgb",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93bc398769a",
+                        "operator": "==",
+                        "value": "hex"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_textcolor",
+            "label": "Text Color",
+            "name": "textColor",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93bc398769a",
+                        "operator": "==",
+                        "value": "printcolorids"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "PrintColor ID",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c93c00d5c933",
+            "label": "Design",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_designid",
+            "label": "Design Id",
+            "name": "designId",
+            "type": "text",
+            "instructions": "A valid Spreadshirt Design ID",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c93b8e21e9a6",
+            "label": "Design Color Mode",
+            "name": "design_color_mode",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "!=",
+                        "value": "text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "printcolorids": "Printcolor Ids",
+                "hex": "RGB Color"
+            },
+            "allow_null": 0,
+            "default_value": "hex",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_designcolor1",
+            "label": "First Design Color",
+            "name": "designColor1",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "printcolorids"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "PrintColor ID",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_designcolor2",
+            "label": "Second Design Color",
+            "name": "designColor2",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "printcolorids"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "PrintColor ID",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_designcolor3",
+            "label": "Third Design Color",
+            "name": "designColor3",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "printcolorids"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "PrintColor ID",
+            "append": "",
+            "min": 1,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_designcolorrgb1",
+            "label": "First Design Color",
+            "name": "designColorRgb1",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "hex"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_designcolorrgb2",
+            "label": "Second Design Color",
+            "name": "designColorRgb2",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "hex"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_designcolorrgb3",
+            "label": "Third Design Color",
+            "name": "designColorRgb3",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c93b8421e9a5",
+                        "operator": "==",
+                        "value": "design"
+                    },
+                    {
+                        "field": "field_5c93b8e21e9a6",
+                        "operator": "==",
+                        "value": "hex"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5c93bfe05c931",
+            "label": "Interface",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_panel",
+            "label": "Designer Tab",
+            "name": "panel",
+            "type": "button_group",
+            "instructions": "Preselected Tab",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "productTypes": "productTypes",
+                "designs": "designs",
+                "upload": "upload",
+                "imageNetwork": "imageNetwork"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_departmentid",
+            "label": "Department ID",
+            "name": "departmentId",
+            "type": "select",
+            "instructions": "A Spreadshirt Department ID",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_producttypecategoryid",
+            "label": "ProductType Category ID",
+            "name": "productTypeCategoryId",
+            "type": "select",
+            "instructions": "A Spreadshirt ProductType Category ID",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [],
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_designcategoryid",
+            "label": "Design Category ID",
+            "name": "designCategoryId",
+            "type": "text",
+            "instructions": "A Spreadshirt Design Category ID",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "short_param": "G",
+            "param": "designCategoryId",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_designsearch",
+            "label": "Search Query",
+            "name": "designSearch",
+            "type": "text",
+            "instructions": "Filter Designs by search term",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "short_param": "S",
+            "param": "designSearch",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sfw-confomat"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "T-Shirt Designer",
+    "private": null,
+    "modified": 1555408846
+}

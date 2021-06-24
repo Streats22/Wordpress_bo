@@ -1,0 +1,44 @@
+{
+    "key": "group_5caed734c63d2",
+    "title": "Update Settings",
+    "fields": [
+        {
+            "key": "field_5caed73ec8e9d",
+            "label": "License Key",
+            "name": "sfw-license",
+            "type": "text",
+            "instructions": "Please enter your License Key here to receive updates for SFW Pro. You'll find your personal License Key <a href=\"https:\/\/www.apparelcuts.com\/resource\/spreadshirt-for-wordpress-plugin\/\" target=\"_blank\">at our website<\/a>. Don't forget to enter the domain of this website on your License Management page on apparelcuts.com as well.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "sfw_options_page",
+                "operator": "==",
+                "value": "sfw-update"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "SFW Updates & License Key",
+    "private": null,
+    "modified": 1554962873
+}

@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./source/assets/dist/sfw-synchronization.js:192
+msgid "Other"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:337
+msgid "%1$s hours and %2$s minutes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:339
+msgid "one hour and %1$s minutes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:341
+msgid "%1$s minutes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:343
+msgid "one minute and %1$s seconds"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:385
+msgid "Failed Tasks"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:385
+msgid "Errors"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:414
+msgid "Synchronization stopped manually"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:562
+msgid "%1$s Items found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:669
+msgid "Syncing..."
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:880
+msgid "New"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:881
+msgid "Update"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:882
+msgid "Update (forced)"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:882
+msgid "No Action"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:884
+msgid "Removed"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:962
+msgid "Syncing Database Articles"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:971
+msgid "%1$s Articles found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:972
+msgid "Articles"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:980
+msgid "Syncing Shop Articles"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:999
+msgid "Preparing Article Updates"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1041
+msgid "Trashing Shop Articles"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1126
+msgid "%1$s Producttypes found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1127
+msgid "Producttypes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1135
+msgid "Syncing Shop Producttypes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1145
+msgid "%1$s ProductTypes found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1154
+msgid "Preparing Producttype Updates"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1172
+msgid "Syncing Shop ProductTypes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1198
+msgid "Syncing Shop Designs"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1208
+msgid "%1$s Designs found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1209
+msgid "Designs"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1233
+msgid "Syncing Shop PrintTypes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1243
+msgid "%1$s PrintTypes found"
+msgstr ""
+
+#: ./source/assets/dist/sfw-synchronization.js:1244
+msgid "Printtypes"
+msgstr ""

@@ -1,0 +1,18 @@
+{
+   "domain": "apparelcuts-spreadshirt",
+   "locale_data": {
+      "apparelcuts-spreadshirt": {
+         "": {
+            "domain": "apparelcuts-spreadshirt",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "de"
+         },
+         "floating basket\u0004Cart": [
+            "Warenkorb"
+         ],
+         "floating basket checkout action\u0004Checkout": [
+            "Kasse"
+         ]
+      }
+   }
+}

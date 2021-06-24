@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./source/assets/dist/sfw-public.js:991
+msgid "State"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1049
+msgid "Delivery country"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1324
+msgid "available"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1324
+msgid "currently unavailable"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1329
+msgid "Only available in other colors"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1331
+msgid "Only available in other sizes"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1495
+msgid "Your Basket is currently empty"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1499
+msgid "Total Items"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1499
+msgid "Shipping"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1499
+msgid "Total"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1499
+msgid "Incl. Vat, incl. Shipping"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1529
+msgid "Remove"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1533
+msgid "Edit"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1613
+msgid "1 Item"
+msgid_plural "%1$s Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./source/assets/dist/sfw-public.js:943
+msgctxt "%s price min in shipping costs table"
+msgid "%s and above"
+msgstr ""
+
+#: ./source/assets/dist/sfw-public.js:1469
+msgctxt "estimated shipping, %s$1 min days, %s$2 max days"
+msgid "Delivery time: %1$s - %2$s working days"
+msgstr ""
+
+
+

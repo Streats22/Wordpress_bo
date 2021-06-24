@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./source/assets/dist/sfw-theme.js:31
+msgctxt "floating basket"
+msgid "Cart"
+msgstr ""
+
+#: ./source/assets/dist/sfw-theme.js:33
+msgctxt "floating basket checkout action"
+msgid "Checkout"
+msgstr ""

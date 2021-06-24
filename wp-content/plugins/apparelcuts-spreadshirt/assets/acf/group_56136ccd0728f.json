@@ -1,0 +1,100 @@
+{
+    "key": "group_56136ccd0728f",
+    "title": "Advanced Settings",
+    "fields": [
+        {
+            "key": "field_561116ac0d446",
+            "label": "Background Color",
+            "name": "sfw-background-color",
+            "type": "color_picker",
+            "instructions": "Choose a favorite Background Color for this Design",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_559b9874e7d9a",
+            "label": "Brightness",
+            "name": "sfw-iswhite",
+            "type": "true_false",
+            "instructions": "is this design is very bright and should be displayed with a dark background when possible?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5749cf3d26cd3",
+            "label": "Parent Design",
+            "name": "sfw-parent-design-post-id",
+            "type": "post_object",
+            "instructions": "If you choose a parent design, the editability of this design will be limited.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "sfw-design"
+            ],
+            "taxonomy": "",
+            "allow_null": 1,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_56137a0ca5739",
+            "label": "Developer Info: Main Design Id",
+            "name": "sfw-parent-design",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "sfw-show-debug",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sfw-design"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "Spreadshirt Design Settings",
+    "private": null,
+    "modified": 1553252231
+}

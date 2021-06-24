@@ -1,0 +1,117 @@
+{
+   "domain": "apparelcuts-spreadshirt",
+   "locale_data": {
+      "apparelcuts-spreadshirt": {
+         "": {
+            "domain": "apparelcuts-spreadshirt",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "de"
+         },
+         "Other": [
+            "Andere"
+         ],
+         "%1$s hours and %2$s minutes": [
+            "%1$s Stunden und %2$s Minuten"
+         ],
+         "one hour and %1$s minutes": [
+            "Eine Stunde und %1$s Minuten"
+         ],
+         "%1$s minutes": [
+            "%1$s Minuten"
+         ],
+         "one minute and %1$s seconds": [
+            "Eine Minute und %1$s Sekunden"
+         ],
+         "Failed Tasks": [
+            "Fehlgeschlagene Aufgaben"
+         ],
+         "Errors": [
+            "Fehler"
+         ],
+         "Synchronization stopped manually": [
+            "Synchronisation manuell angehalten"
+         ],
+         "%1$s Items found": [
+            "%1$s Einheiten gefunden"
+         ],
+         "Syncing...": [
+            "Synchronisiere…"
+         ],
+         "New": [
+            "Neu"
+         ],
+         "Update": [
+            "Aktualisieren"
+         ],
+         "Update (forced)": [
+            "Aktualisieren (erzwungen)"
+         ],
+         "No Action": [
+            "Keine Aktion"
+         ],
+         "Removed": [
+            "Entfernt"
+         ],
+         "Syncing Database Articles": [
+            "Synchronisiere Datenbank Produkte"
+         ],
+         "%1$s Articles found": [
+            "%1$s Produkte gefunden"
+         ],
+         "Articles": [
+            "Produkte"
+         ],
+         "Syncing Shop Articles": [
+            "Synchronisiere Shop Produkte"
+         ],
+         "Preparing Article Updates": [
+            "Produktupdates vorbereiten"
+         ],
+         "Trashing Shop Articles": [
+            "Produkte entfernen"
+         ],
+         "%1$s Producttypes found": [
+            "%1$s Produkttypen gefunden"
+         ],
+         "Producttypes": [
+            "Produkttypen"
+         ],
+         "Syncing Shop Producttypes": [
+            "Synchronisiere Produkttypen"
+         ],
+         "%1$s ProductTypes found": [
+            "%1$s Produkttypen gefunden"
+         ],
+         "Preparing Producttype Updates": [
+            "Produkttypenupdate vorbereiten"
+         ],
+         "Syncing Shop ProductTypes": [
+            "Synchronisiere Shop Produkttypen"
+         ],
+         "Syncing Shop Designs": [
+            "Synchronisiere Shop Motive"
+         ],
+         "%1$s Designs found": [
+            "%1$s Motive gefunden"
+         ],
+         "Designs": [
+            "Motive"
+         ],
+         "Syncing Shop PrintTypes": [
+            "Synchronisiere Shop Druckarten"
+         ],
+         "%1$s PrintTypes found": [
+            "%1$s Druckarten gefunden"
+         ],
+         "Printtypes": [
+            "Druckarten"
+         ],
+         "%1$s Departments found": [
+            "%1$s Produktkategorien gefunden"
+         ],
+         "Syncing Shop Departments": [
+            "Synchronisiere Produktkategorien"
+         ]
+      }
+   }
+}

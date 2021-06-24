@@ -1,0 +1,2023 @@
+# Copyright (C) 2019 sfw
+# This file is distributed under the same license as the sfw package.
+msgid ""
+msgstr ""
+"Project-Id-Version: sfw\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: source/template/archive-sfw-design.php:9,
+#: source/core/components/design/design-posttype.php:22,
+#: source/core/components/design/design-posttype.php:42,
+#: source/core/components/design/design-posttype.php:43,
+#: source/core/components/design/design-posttype.php:44,
+#: source/core/components/product-article/product-article-posttype-ui.php:80
+msgid "Designs"
+msgstr "Motive"
+
+#: source/template/archive-sfw-product.php:9,
+#: source/core/components/product-article/product-article-posttype.php:20,
+#: source/core/components/product-article/product-article-posttype.php:39,
+#: source/core/components/product-article/product-article-posttype.php:40,
+#: source/core/components/product-article/product-article-posttype.php:41,
+#: source/core/components/product-article/product-article-posttype.php:42
+msgid "Products"
+msgstr "Produkte"
+
+#: source/assets/acf/translateables.php:5
+msgctxt "acf"
+msgid "Display"
+msgstr "Anzeige"
+
+#: source/assets/acf/translateables.php:7
+msgctxt "acf"
+msgid "Show information about this printtype in the shop"
+msgstr "Zeige Informationen über diese Druckart im Shop an"
+
+#: source/assets/acf/translateables.php:9
+msgctxt "acf"
+msgid "Printtype Settings"
+msgstr "Druckart Einstellungen"
+
+#: source/assets/acf/translateables.php:11
+msgctxt "acf"
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: source/assets/acf/translateables.php:13
+msgctxt "acf"
+msgid "End Date"
+msgstr "Enddatum"
+
+#: source/assets/acf/translateables.php:15
+msgctxt "acf"
+msgid "Choose Promotion Locations:"
+msgstr "Wähle Promotion Positionen"
+
+#: source/assets/acf/translateables.php:17
+msgctxt "acf"
+msgid "Promotion Settings"
+msgstr "Promotion Einstellungen"
+
+#: source/assets/acf/translateables.php:19
+msgctxt "acf"
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: source/assets/acf/translateables.php:21
+msgctxt "acf"
+msgid "Choose a favorite Background Color for this Design"
+msgstr "Wähle deine favorisierte Hintergrundfarbe für dieses Design"
+
+#: source/assets/acf/translateables.php:23
+msgctxt "acf"
+msgid "Brightness"
+msgstr "Helligkeit"
+
+#: source/assets/acf/translateables.php:25
+msgctxt "acf"
+msgid ""
+"is this design is very bright and should be displayed with a dark background "
+"when possible?"
+msgstr ""
+"Ist dieses Design sehr hell und sollte lieber mit einem dunklen Hintergrund "
+"dargestellt werden?"
+
+#: source/assets/acf/translateables.php:27
+msgctxt "acf"
+msgid "Parent Design"
+msgstr "Übergeordnetes Motiv"
+
+#: source/assets/acf/translateables.php:29
+msgctxt "acf"
+msgid ""
+"If you choose a parent design, the editability of this design will be "
+"limited."
+msgstr ""
+"Wenn du ein übergeordnetes Design wählst, wird die Editierbarkeit dieses "
+"Designs eingeschränkt."
+
+#: source/assets/acf/translateables.php:31
+msgctxt "acf"
+msgid "Developer Info: Main Design Id"
+msgstr "Entwicklerinformationen: Haupt Design Id"
+
+#: source/assets/acf/translateables.php:33
+msgctxt "acf"
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: source/assets/acf/translateables.php:35
+msgctxt "acf"
+msgid "Api-Secret"
+msgstr "Api-Secret"
+
+#: source/assets/acf/translateables.php:37
+msgctxt "acf"
+msgid "Your Spreadshirt API Secret"
+msgstr "Dein Spreadshirt API Secret"
+
+#: source/assets/acf/translateables.php:39
+msgctxt "acf"
+msgid "Api-Key"
+msgstr "Api-Key"
+
+#: source/assets/acf/translateables.php:41
+msgctxt "acf"
+msgid "Your Spreadshirt API Key"
+msgstr "Dein Spreadshirt API Key"
+
+#: source/assets/acf/translateables.php:43
+msgctxt "acf"
+msgid "Spreadshirt Platform"
+msgstr "Spreadshirt Plattform"
+
+#: source/assets/acf/translateables.php:45
+msgctxt "acf"
+msgid "Please choose your Spreadshirt Platform"
+msgstr "Bitte wähle deine Spreadshirt Plattform"
+
+#: source/assets/acf/translateables.php:47
+msgctxt "acf"
+msgid "Spreadshirt.net ( Europe )"
+msgstr "Spreadshirt.net ( Europa )"
+
+#: source/assets/acf/translateables.php:49
+msgctxt "acf"
+msgid "Spreadshirt.com ( North America )"
+msgstr "Spreadshirt.com ( Nordamerika )"
+
+#: source/assets/acf/translateables.php:51
+msgctxt "acf"
+msgid "Shop Id"
+msgstr "Shop Id"
+
+#: source/assets/acf/translateables.php:53
+msgctxt "acf"
+msgid "The ID of your Spreadshirt Shop."
+msgstr "Die ID deines Spreadshirt Shops"
+
+#: source/assets/acf/translateables.php:55
+msgctxt "acf"
+msgid "API Settings"
+msgstr "API Einstellungen"
+
+#: source/assets/acf/translateables.php:57
+msgctxt "acf"
+msgid "Advice"
+msgstr "Hinweis"
+
+#: source/assets/acf/translateables.php:59
+msgctxt "acf"
+msgid ""
+"Please choose these parameters wisely. Some parameters have a lower priority "
+"than others and might be ignored completely."
+msgstr ""
+"Bitte wähle diese Parameter sorgfältig aus. Manche Parameter haben eine "
+"niedrigere Priorität als andere und werden wohlmöglich ignoriert."
+
+#: source/assets/acf/translateables.php:61
+msgctxt "acf"
+msgid "Product"
+msgstr "Produkt"
+
+#: source/assets/acf/translateables.php:63
+msgctxt "acf"
+msgid "Product Id"
+msgstr "Produkt Id"
+
+#: source/assets/acf/translateables.php:65
+msgctxt "acf"
+msgid "A valid Spreadshirt Product ID"
+msgstr "Eine gültige Spreadshirt Produkt Id"
+
+#: source/assets/acf/translateables.php:67
+msgctxt "acf"
+msgid "ProductType ID"
+msgstr "ProduktTyp ID"
+
+#: source/assets/acf/translateables.php:69
+msgctxt "acf"
+msgid "A Spreadshirt ProductType ID"
+msgstr "Eine gültige Spreadshirt ProduktTyp ID"
+
+#: source/assets/acf/translateables.php:71
+msgctxt "acf"
+msgid "Appearance Id"
+msgstr "Produktfarben ID"
+
+#: source/assets/acf/translateables.php:73
+msgctxt "acf"
+msgid "A valid Spreadshirt Appearance ID"
+msgstr "Eine gültige Spreadshirt Produktfarben ID"
+
+#: source/assets/acf/translateables.php:75
+msgctxt "acf"
+msgid "View Id"
+msgstr "Ansichts ID"
+
+#: source/assets/acf/translateables.php:77
+msgctxt "acf"
+msgid "A valid Spreadshirt View ID."
+msgstr "Eine gültige Spreadshirt Ansichts ID"
+
+#: source/assets/acf/translateables.php:79
+msgctxt "acf"
+msgid "Size Id"
+msgstr "Größen ID"
+
+#: source/assets/acf/translateables.php:81
+msgctxt "acf"
+msgid "A valid Spreadshirt Size ID. Preselects the choosen Size."
+msgstr "Eine gültige Spreadshirt Größen ID"
+
+#: source/assets/acf/translateables.php:83
+msgctxt "acf"
+msgid "Text"
+msgstr "Text"
+
+#: source/assets/acf/translateables.php:85
+msgctxt "acf"
+msgid "First line of text"
+msgstr "Erste Textzeile"
+
+#: source/assets/acf/translateables.php:87
+msgctxt "acf"
+msgid "Second line of text"
+msgstr "Zweite Textzeile"
+
+#: source/assets/acf/translateables.php:89
+msgctxt "acf"
+msgid "Third line of text"
+msgstr "Dritte Textzeile"
+
+#: source/assets/acf/translateables.php:91
+msgctxt "acf"
+msgid "Text Color Mode"
+msgstr "Textfarbmodus"
+
+#: source/assets/acf/translateables.php:93
+msgctxt "acf"
+msgid "Printcolor Id"
+msgstr "Druckfarben ID"
+
+#: source/assets/acf/translateables.php:95,
+#: source/assets/acf/translateables.php:111
+msgctxt "acf"
+msgid "RGB Color"
+msgstr "RGB Farbe"
+
+#: source/assets/acf/translateables.php:97,
+#: source/assets/acf/translateables.php:99
+msgctxt "acf"
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: source/assets/acf/translateables.php:101
+msgctxt "acf"
+msgid "Design"
+msgstr "Motiv"
+
+#: source/assets/acf/translateables.php:103
+msgctxt "acf"
+msgid "Design Id"
+msgstr "Motiv Id"
+
+#: source/assets/acf/translateables.php:105
+msgctxt "acf"
+msgid "A valid Spreadshirt Design ID"
+msgstr "Eine gültige Spreadshirt Motiv ID"
+
+#: source/assets/acf/translateables.php:107
+msgctxt "acf"
+msgid "Design Color Mode"
+msgstr "Designfarbmodus"
+
+#: source/assets/acf/translateables.php:109
+msgctxt "acf"
+msgid "Printcolor Ids"
+msgstr "Druckfarben IDs"
+
+#: source/assets/acf/translateables.php:113,
+#: source/assets/acf/translateables.php:119
+msgctxt "acf"
+msgid "First Design Color"
+msgstr "Erste Designfarbe"
+
+#: source/assets/acf/translateables.php:115,
+#: source/assets/acf/translateables.php:121
+msgctxt "acf"
+msgid "Second Design Color"
+msgstr "Zweite Designfarbe"
+
+#: source/assets/acf/translateables.php:117,
+#: source/assets/acf/translateables.php:123
+msgctxt "acf"
+msgid "Third Design Color"
+msgstr "Dritte Designfarbe"
+
+#: source/assets/acf/translateables.php:125
+msgctxt "acf"
+msgid "Interface"
+msgstr "Aussehen"
+
+#: source/assets/acf/translateables.php:127
+msgctxt "acf"
+msgid "Designer Tab"
+msgstr "Designer Tab"
+
+#: source/assets/acf/translateables.php:129
+msgctxt "acf"
+msgid "Preselected Tab"
+msgstr "Vorgewählter Tab"
+
+#: source/assets/acf/translateables.php:131
+msgctxt "acf"
+msgid "productTypes"
+msgstr "ProduktTypen"
+
+#: source/assets/acf/translateables.php:133
+msgctxt "acf"
+msgid "designs"
+msgstr "Motive"
+
+#: source/assets/acf/translateables.php:135
+msgctxt "acf"
+msgid "upload"
+msgstr "Hochladen"
+
+#: source/assets/acf/translateables.php:137
+msgctxt "acf"
+msgid "imageNetwork"
+msgstr "imageNetwork"
+
+#: source/assets/acf/translateables.php:139
+msgctxt "acf"
+msgid "Department ID"
+msgstr "Produkttyp Department ID"
+
+#: source/assets/acf/translateables.php:141
+msgctxt "acf"
+msgid "A Spreadshirt Department ID"
+msgstr "Eine gültige Spreadshirt Department ID"
+
+#: source/assets/acf/translateables.php:143
+msgctxt "acf"
+msgid "ProductType Category ID"
+msgstr "Produkttypenkategorie ID"
+
+#: source/assets/acf/translateables.php:145
+msgctxt "acf"
+msgid "A Spreadshirt ProductType Category ID"
+msgstr "Eine gültige Spreadshirt Produkttypenkategorie ID"
+
+#: source/assets/acf/translateables.php:147
+msgctxt "acf"
+msgid "Design Category ID"
+msgstr "Motivkategorie ID"
+
+#: source/assets/acf/translateables.php:149
+msgctxt "acf"
+msgid "A Spreadshirt Design Category ID"
+msgstr "Eine gültige Spreadshirt Motivkategorie ID"
+
+#: source/assets/acf/translateables.php:151
+msgctxt "acf"
+msgid "Search Query"
+msgstr "Suchbegriff"
+
+#: source/assets/acf/translateables.php:153
+msgctxt "acf"
+msgid "Filter Designs by search term"
+msgstr "Filter Motive mit Suchbegriff"
+
+#: source/assets/acf/translateables.php:155
+msgctxt "acf"
+msgid "Parameter"
+msgstr "Parameter"
+
+#: source/assets/acf/translateables.php:157
+msgctxt "acf"
+msgid "Promotion Feature"
+msgstr "Promotionfunktion"
+
+#: source/assets/acf/translateables.php:159
+msgctxt "acf"
+msgid "Only included in Pro-Version"
+msgstr "Nur enthalten in der Pro-Version"
+
+#: source/assets/acf/translateables.php:161
+msgctxt "acf"
+msgid "enabled"
+msgstr "eingeschaltet"
+
+#: source/assets/acf/translateables.php:163
+msgctxt "acf"
+msgid "disabled"
+msgstr "ausgeschaltet"
+
+#: source/assets/acf/translateables.php:165
+msgctxt "acf"
+msgid "Pricehint in archives"
+msgstr "Preishinweis in Archivseiten"
+
+#: source/assets/acf/translateables.php:167
+msgctxt "acf"
+msgid "Show price hint on archive pages"
+msgstr "Zeige Preishinweis in Archivseiten"
+
+#: source/assets/acf/translateables.php:169
+msgctxt "acf"
+msgid "Price Labeling"
+msgstr "Pricedkennzeichnung"
+
+#: source/assets/acf/translateables.php:171
+msgctxt "acf"
+msgid "Should price labeling include vat?"
+msgstr "Sollen Preise einen Steuerhinweis zeigen?"
+
+#: source/assets/acf/translateables.php:173
+msgctxt "acf"
+msgid "General"
+msgstr "Allgemein"
+
+#: source/assets/acf/translateables.php:175
+msgctxt "acf"
+msgid "New Products post status"
+msgstr "Status für neue Produkte"
+
+#: source/assets/acf/translateables.php:177
+msgctxt "acf"
+msgid ""
+"When new products are added to the shop, they will receive this post status"
+msgstr ""
+"Wenn neue Produkte zum Shop hinzugefügt werden, erhalten sie diesen Status"
+
+#: source/assets/acf/translateables.php:179
+msgctxt "acf"
+msgid "private"
+msgstr "private"
+
+#: source/assets/acf/translateables.php:181
+msgctxt "acf"
+msgid "pending"
+msgstr "pending"
+
+#: source/assets/acf/translateables.php:183
+msgctxt "acf"
+msgid "draft"
+msgstr "draft"
+
+#: source/assets/acf/translateables.php:185
+msgctxt "acf"
+msgid "publish"
+msgstr "publish"
+
+#: source/assets/acf/translateables.php:187
+msgctxt "acf"
+msgid "Local Timeout"
+msgstr "Lokaler Timeout"
+
+#: source/assets/acf/translateables.php:189
+msgctxt "acf"
+msgid "Timeout between requests to your own server"
+msgstr "Pause zwischen Aufrufen auf deinem eigenen Server"
+
+#: source/assets/acf/translateables.php:191
+msgctxt "acf"
+msgid "Remote Timeout"
+msgstr "Entfernter Timeout"
+
+#: source/assets/acf/translateables.php:193
+msgctxt "acf"
+msgid "Timeout between requests to the Spreadshirt servers"
+msgstr "Pause zwischen Aufrufen der Spreadshirt API"
+
+#: source/assets/acf/translateables.php:195
+msgctxt "acf"
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+#: source/assets/acf/translateables.php:197
+msgctxt "acf"
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: source/assets/acf/translateables.php:199
+msgctxt "acf"
+msgid ""
+"Please enter your License Key here to receive updates for SFW Pro. You'll "
+"find your personal License Key <a href=\"https://www.apparelcuts.com/"
+"resource/spreadshirt-for-wordpress-plugin/\" target=\"_blank\">at our "
+"website</a>. Don't forget to enter the domain of this website on your "
+"License Management page on apparelcuts.com as well."
+msgstr ""
+"Bitte gib deinen Lizenzschlüssel hier ein, um Updates für SFW Pro zu "
+"erhalten. Du findest deinen persönlichen Lizenzschlüssel <a href=\"https://"
+"www.apparelcuts.com/resource/spreadshirt-for-wordpress-plugin/\" target="
+"\"_blank\">auf unserer Website</a>. Vergiss außerdem nicht, deine Domain in "
+"den Lizenzeinstellungen deines Mitgliedsprofils freizugeben."
+
+#: source/assets/acf/translateables.php:201
+msgctxt "acf"
+msgid "Update Settings"
+msgstr "Einstellungen speichern"
+
+#: source/core/components/external-pages.php:39
+msgid "Shipping Costs"
+msgstr "Versandkosten"
+
+#: source/core/components/external-pages.php:40
+msgctxt "A page slug"
+msgid "shipping-costs"
+msgstr "versandkosten"
+
+#: source/core/components/external-pages.php:42
+msgid "A page displaying shipping costs and details"
+msgstr "Eine Seite die Informationen zum Versand enthält."
+
+#: source/core/components/external-pages.php:46
+msgctxt "%s = shorttag code"
+msgid "In most cases, this page should contain the %s and %s shorttags"
+msgstr "In der Regel sollte diese die %s und %s Shorttags enthalten."
+
+#: source/core/components/functions-country.php:92
+msgctxt "fallback decimal point"
+msgid "."
+msgstr ","
+
+#: source/core/components/functions-country.php:111
+msgctxt "fallback thousandsSeparator"
+msgid ","
+msgstr "."
+
+#: source/core/components/functions-currency.php:89
+msgctxt "fallback decimalCount"
+msgid "2"
+msgstr "2"
+
+#: source/core/components/functions-currency.php:106
+msgctxt "fallback currency pattern, % = number, $ = currency symbol"
+msgid "% $"
+msgstr "% $"
+
+#: source/core/components/functions-hyperlinks.php:71
+msgid "Link"
+msgstr "Link"
+
+#: source/core/components/functions-hyperlinks.php:191
+msgid "Article"
+msgstr "Artikel"
+
+#: source/core/components/functions-hyperlinks.php:191,
+#: source/core/components/functions-hyperlinks.php:214,
+#: source/core/components/functions-hyperlinks.php:236,
+#: source/core/components/functions-hyperlinks.php:259,
+#: source/core/components/functions-hyperlinks.php:282
+msgid "API Endpoint"
+msgstr "API Endpunkt"
+
+#: source/core/components/functions-hyperlinks.php:214,
+#: source/core/components/product-article/product-article-posttype.php:21,
+#: source/core/components/product-article/product-article-posttype.php:43
+msgid "Product"
+msgstr "Produkt"
+
+#: source/core/components/functions-hyperlinks.php:236,
+#: source/core/components/design/design-posttype.php:23
+msgid "Design"
+msgstr "Motiv"
+
+#: source/core/components/functions-hyperlinks.php:259,
+#: source/core/components/producttype/producttype-taxonomy.php:19
+msgid "Producttype"
+msgstr "Produkttyp"
+
+#: source/core/components/functions-hyperlinks.php:282,
+#: source/core/components/printtype/printtype-taxonomy.php:24
+msgid "Printtype"
+msgstr "Druckart"
+
+#: source/core/components/functions-hyperlinks.php:340
+msgid "Userarea"
+msgstr "Userarea"
+
+#: source/core/components/functions-hyperlinks.php:364
+msgid "Producttype Catalog"
+msgstr "Produkttyp Katalog"
+
+#: source/core/components/functions-price.php:16
+msgctxt ".net vat hint"
+msgid "incl. VAT (EU)"
+msgstr "inkl. MwSt. (EU)"
+
+#: source/core/components/functions-price.php:19
+msgctxt ".com vat hint"
+msgid "incl. VAT"
+msgstr "inkl. MwSt."
+
+#: source/core/components/functions-price.php:52
+msgctxt "shipping costs hint"
+msgid "plus shipping"
+msgstr "zzgl. Versand"
+
+#: source/core/includes/functions-taxonomy-screens.php:52,
+#: source/core/includes/functions-taxonomy-screens.php:68
+msgid "Spreadshirt-Id"
+msgstr "Spreadshirt-Id"
+
+#: source/core/includes/functions-taxonomy-screens.php:110,
+#: source/core/components/design/design-posttype-ui.php:34,
+#: source/core/components/product-article/product-article-posttype-ui.php:13,
+#: source/core/components/product-article/product-article-posttype-ui.php:67,
+#: source/core/components/producttype/producttype-taxonomy.php:121
+msgid "Preview"
+msgstr "Vorschau"
+
+#: source/core/includes/functions-wp-errors.php:63
+msgid "An unspecified error has happened."
+msgstr "Ein unbestimmter Fehler ist aufgetreten."
+
+#: source/core/includes/functions-wp-errors.php:110
+msgctxt "Could not retrieve item like Article, Design etc."
+msgid "Could not retrieve %s."
+msgstr "Konnte %s nicht abrufen."
+
+#: source/core/includes/functions-wp-errors.php:111
+msgid "%s with ID %s"
+msgstr "%s mit ID %s"
+
+#: source/core/includes/functions-wp-errors.php:129
+msgid "Variable %s can not be empty"
+msgstr "Die Variable %s darf nicht leer sein"
+
+#: source/core/includes/functions-wp-errors.php:146
+msgid "Type of variable not accepted"
+msgstr "Typ der Variable nicht akzeptiert"
+
+#: source/template/sfw/content-single-sfw-product-orderform.php:7
+msgid "Appearance"
+msgstr "Farbe"
+
+#: source/template/sfw/content-single-sfw-product-orderform.php:15
+msgid "Size"
+msgstr "Größe"
+
+#: source/template/sfw/content-single-sfw-product-orderform.php:15
+msgid "Size Chart"
+msgstr "Größentabelle"
+
+#: source/template/sfw/content-single-sfw-product.php:53
+msgctxt "by brand"
+msgid "by"
+msgstr "von"
+
+#: source/core/components/admin/admin-nav-menu.php:20
+msgctxt "Nav menu link suggestion box"
+msgid "Spreadshirt Shop"
+msgstr "Spreadshirt Shop"
+
+#: source/core/components/admin/admin-nav-menu.php:137
+msgctxt "menu item label"
+msgid "Checkout"
+msgstr "Kasse"
+
+#: source/core/components/admin/admin-nav-menu.php:146
+msgctxt "menu item label"
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: source/core/components/admin/admin-nav-menu.php:155
+msgctxt "menu item label"
+msgid "All Designs"
+msgstr "Alle Motive"
+
+#: source/core/components/admin/admin-page-welcome.php:15
+msgid "Welcome to Spreadshirt for Wordpress by Apparelcuts!"
+msgstr "Willkommen zu Spreadshirt für Wordpress von Apparelcuts!"
+
+#: source/core/components/admin/admin-page-welcome.php:17
+msgid "Spreadshirt"
+msgstr "Spreadshirt"
+
+#: source/core/components/admin/admin-page-welcome.php:61
+msgid "First Steps"
+msgstr "Erste Schritte"
+
+#: source/core/components/admin/admin-page-welcome.php:71
+msgid "Hi! Thank you for using our Plugin!"
+msgstr "Hallo! Danke dass du unser Plugin benutzt!"
+
+#: source/core/components/admin/admin-page-welcome.php:73
+msgid ""
+"Here are a few things, that may help you to get started. Don't forget to "
+"checkout the documentation and if you have any questions or feedback, please "
+"check out the forums."
+msgstr ""
+"Hier sind ein paar Dinge, die dir den Anfang vielleicht etwas leichter "
+"machen. Vergiss nicht auch unsere Dokumentation anzusehen. Falls du Fragen "
+"oder Feedback hast, schau doch gerne im Forum vorbei."
+
+#: source/core/components/admin/admin-page-welcome.php:77
+msgid "First steps to setup your shop."
+msgstr "Erste Schritte zum Einrichten deines Shops."
+
+#: source/core/components/admin/admin-page-welcome.php:82
+msgid ""
+"Register for an API key with your Spreadshirt user id in case you don't have "
+"one yet."
+msgstr ""
+"Registriere dich um einen API Schlüssel zu erhalten, falls du das nicht "
+"schon getan hast."
+
+#: source/core/components/admin/admin-page-welcome.php:89
+msgid "Check the settings page and enter your Shop Id and API Credentials."
+msgstr ""
+"Rufe die Einstellungen auf und füge dort deine Shop ID und API Zugangsdaten "
+"aus."
+
+#: source/core/components/admin/admin-page-welcome.php:91
+msgid "Do your first synchronization."
+msgstr "Führe eine erste Synchronisation durch."
+
+#: source/core/components/admin/admin-page-welcome.php:119
+msgid "Synchonize your Spreadshirt Shop with your Wordpress Database"
+msgstr "Synchronisiere deinen Spreadshirt Shop mit deiner Wordpress Datenbank"
+
+#: source/core/components/admin/admin-page-welcome.php:136
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: source/core/components/admin/admin-page-welcome.php:146
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung (englisch)"
+
+#: source/core/components/admin/admin-page-welcome.php:159
+msgid "Donate via PayPal"
+msgstr "Spenden via PayPal"
+
+#: source/core/components/admin/admin-page-welcome.php:172
+msgid ""
+"The Development of this plugin takes a lot of time, I would appreciate when "
+"you consider supporting it via Patreon. As Patron you receive a lot of "
+"benefits including priority support."
+msgstr ""
+"Das Entwickeln dieses Plugins kostet sehr viel Zeit und Mühe, ich würde mich "
+"daher freuen wenn du es in Erwägung ziehst es via Patreon zu unterstützen. "
+"Als Unterstützer erhältst du viele Vorteile, zum Beispiel Support mit einer "
+"höheren Priorität."
+
+#: source/core/components/admin-pages/admin-pages-location-for-acf.php:15
+msgid "SFW Options Page"
+msgstr "SFW Einstellungen"
+
+#: source/core/components/admin-pages/admin-pages-location-for-acf.php:40
+msgid "No options pages exist"
+msgstr "Optionsseite existiert nicht"
+
+#: source/core/components/admin-pages/class-admin-page-display.php:259
+msgid "Save"
+msgstr "Speichern"
+
+#: source/core/components/admin-pages/class-admin-page-manager.php:90
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: source/core/components/admin-pages/class-admin-page-manager.php:91
+msgid "Options Updated"
+msgstr "Einstellungen aktualisiert"
+
+#: source/core/components/basket/basket.php:10
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: source/core/components/basket/basket.php:11
+msgid "A page that displays the current basket"
+msgstr "Eine Seite die den Warenkorb anzeigt."
+
+#: source/core/components/basket/basket.php:12
+msgctxt "The basket/cart page slug"
+msgid "cart"
+msgstr "warenkorb"
+
+#: source/core/components/basket/basket.php:17
+msgctxt "%s = shorttag code"
+msgid "In most cases, this page should contain the %s shorttag"
+msgstr "In den meisten Fällen, sollte diese Seite den %s Shorttag enthalten."
+
+#: source/core/components/brand/brand-taxonomy.php:18,
+#: source/core/components/brand/brand-taxonomy.php:20
+msgid "Brands"
+msgstr "Marken"
+
+#: source/core/components/brand/brand-taxonomy.php:19
+msgid "Brand"
+msgstr "Marke"
+
+#: source/core/components/brand/brand-taxonomy.php:21
+msgid "All Brands"
+msgstr "Alle Marken"
+
+#: source/core/components/brand/brand-taxonomy.php:22
+msgid "Edit Brand"
+msgstr "Marke bearbeiten"
+
+#: source/core/components/brand/brand-taxonomy.php:23
+msgid "View Brand"
+msgstr "Marke ansehen"
+
+#: source/core/components/brand/brand-taxonomy.php:24
+msgid "Update Brand"
+msgstr "Marke aktualisieren"
+
+#: source/core/components/brand/brand-taxonomy.php:29
+msgid "Search Brands"
+msgstr "Suche Marken"
+
+#: source/core/components/brand/brand-taxonomy.php:30
+msgid "Popular Brands"
+msgstr "Beliebte Marken"
+
+#: source/core/components/brand/brand-taxonomy.php:34
+msgid "No Brands found."
+msgstr "Keine Marken gefunden"
+
+#: source/core/components/brand/brand-taxonomy.php:46
+msgctxt "The brand slug"
+msgid "brand"
+msgstr "marke"
+
+#: source/core/components/brand/functions-brand.php:26
+msgid "Brand already exists."
+msgstr "Marke existiert bereits"
+
+#: source/core/components/brand/functions-brand.php:115
+msgctxt "%ProductTypeName by %Brand"
+msgid "%s by %s"
+msgstr "%s von %s"
+
+#: source/core/components/brand/functions-brand.php:170
+msgctxt "Brandname"
+msgid "Spreadshirt"
+msgstr "Spreadshirt"
+
+#: source/core/components/confomat/confomat-page.php:6
+msgid "T-Shirt Designer"
+msgstr "T-Shirt Designer"
+
+#: source/core/components/confomat/confomat-page.php:7
+msgid "The main t-shirt designer"
+msgstr "Der Haupt-T-Shirtdesigner"
+
+#: source/core/components/confomat/confomat-page.php:8
+msgctxt "The confomat page slug"
+msgid "shirt-designer"
+msgstr "shirt-designer"
+
+#: source/core/components/confomat/confomat-posttype.php:19,
+#: source/core/components/confomat/confomat-posttype.php:20
+msgid "Shirt Designer"
+msgstr "Shirt Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:21
+msgctxt "product"
+msgid "Add New"
+msgstr "Neu"
+
+#: source/core/components/confomat/confomat-posttype.php:22
+msgid "Add New Designer"
+msgstr "Neuen Designer hinzufügen"
+
+#: source/core/components/confomat/confomat-posttype.php:23
+msgid "Edit Designer"
+msgstr "Designer bearbeiten"
+
+#: source/core/components/confomat/confomat-posttype.php:24
+msgid "New Designer"
+msgstr "Neuer Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:25
+msgid "View Designer"
+msgstr "Designer ansehen"
+
+#: source/core/components/confomat/confomat-posttype.php:26
+msgid "Search Designers"
+msgstr "Suche Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:27
+msgid "No Designer found."
+msgstr "Kein Designer gefunden"
+
+#: source/core/components/confomat/confomat-posttype.php:28
+msgid "No Designer found in Trash"
+msgstr "Keine Designer im Papierkorb gefunden"
+
+#: source/core/components/confomat/confomat-posttype.php:30
+msgid "All Designers"
+msgstr "All Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:32
+msgid "Insert into Designer"
+msgstr "Zu Designer hinzufügen"
+
+#: source/core/components/confomat/confomat-posttype.php:33
+msgid "Uploaded to this Designer"
+msgstr "Für diesen Designer hochgeladen"
+
+#: source/core/components/confomat/confomat-posttype.php:39,
+#: source/core/components/confomat/confomat-posttype.php:40,
+#: source/core/components/confomat/confomat-posttype.php:41
+msgid "Designer"
+msgstr "Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:42
+msgctxt "Designer menu_name"
+msgid "Designer"
+msgstr "Designer"
+
+#: source/core/components/confomat/confomat-posttype.php:58
+msgctxt "Shirt Designer posttype slug"
+msgid "shirt-designer"
+msgstr "shirt-designer"
+
+#: source/core/components/confomat/confomat-ui.php:12
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: source/core/components/design/design-posttype-ui.php:8
+msgid "Slug"
+msgstr "Urlname"
+
+#: source/core/components/design/design-posttype-ui.php:21
+msgid "Description"
+msgstr "Beschreibung"
+
+#: source/core/components/design/design-posttype-ui.php:50
+msgid "Groups and Tags"
+msgstr "Gruppen und Tags"
+
+#: source/core/components/design/design-posttype-ui.php:54
+msgid "Tags"
+msgstr "Tags"
+
+#: source/core/components/design/design-posttype-ui.php:63
+msgid "Article Count"
+msgstr "Artikelanzahl"
+
+#: source/core/components/design/design-posttype-ui.php:326
+msgid "Restricted Editability"
+msgstr "Eingeschränkte Editiermöglichkeiten"
+
+#: source/core/components/design/design-posttype-ui.php:327
+msgid ""
+"This Design is marked as relative of another Design. Click here to edit the "
+"primary Design:"
+msgstr ""
+"Dieses Design ist einem übergeordnetem Design zugeordnet. Klicke hier um das "
+"übergeordnete Design zu Bearbeiten:"
+
+#: source/core/components/design/design-posttype.php:26,
+#: source/core/components/product-article/product-article-posttype-ui.php:88
+msgid "Edit Design"
+msgstr "Motiv bearbeiten"
+
+#: source/core/components/design/design-posttype.php:28
+msgid "View Design"
+msgstr "Motiv ansehen"
+
+#: source/core/components/design/design-posttype.php:29
+msgid "Search Designs"
+msgstr "Motive suchen"
+
+#: source/core/components/design/design-posttype.php:30
+msgid "No Designs found."
+msgstr "Keine Motive gefunden."
+
+#: source/core/components/design/design-posttype.php:31
+msgid "No Designs found in Trash"
+msgstr "Keine Motive im Papierkorb gefunden"
+
+#: source/core/components/design/design-posttype.php:33
+msgid "All Designs"
+msgstr "Alle Motive"
+
+#: source/core/components/design/design-posttype.php:34
+msgid "Design Archives"
+msgstr "Motivarchiv"
+
+#: source/core/components/design/design-posttype.php:35
+msgid "Insert into Design"
+msgstr "Zu Motiv hinzufügen"
+
+#: source/core/components/design/design-posttype.php:36
+msgid "Uploaded to this Design"
+msgstr "Zu diesem Motiv hochgeladen"
+
+#: source/core/components/design/design-posttype.php:41,
+#: source/core/components/design/design-posttype.php:45
+msgctxt "menu_name"
+msgid "Designs"
+msgstr "Motive"
+
+#: source/core/components/design/design-posttype.php:50
+msgctxt "posttype description"
+msgid "Spreadshirt Designs"
+msgstr "Spreadshirt Motive"
+
+#: source/core/components/design/design-posttype.php:68
+msgctxt "Design Archive Slug"
+msgid "all-designs"
+msgstr "alle-designs"
+
+#: source/core/components/design/design-posttype.php:69
+msgctxt "design posttype slug"
+msgid "design"
+msgstr "design"
+
+#: source/core/components/design/designgroup-taxonomy.php:11,
+#: source/core/components/design/designgroup-taxonomy.php:13
+msgid "Designgroups"
+msgstr "Motivgruppen"
+
+#: source/core/components/design/designgroup-taxonomy.php:12
+msgid "Designgroup"
+msgstr "Motivgruppe"
+
+#: source/core/components/design/designgroup-taxonomy.php:14
+msgid "All Designgroups"
+msgstr "Alle Motivgruppen"
+
+#: source/core/components/design/designgroup-taxonomy.php:15
+msgid "Edit Designgroup"
+msgstr "Motivgruppe bearbeiten"
+
+#: source/core/components/design/designgroup-taxonomy.php:16
+msgid "View Designgroup"
+msgstr "Motivgruppe ansehen"
+
+#: source/core/components/design/designgroup-taxonomy.php:17
+msgid "Update Designgroup"
+msgstr "Motivgruppe aktualisieren"
+
+#: source/core/components/design/designgroup-taxonomy.php:18
+msgid "Add Designgroup"
+msgstr "Motivgruppe hinzufügen"
+
+#: source/core/components/design/designgroup-taxonomy.php:19
+msgid "Add new Designgroup"
+msgstr "Neue Motivgruppe"
+
+#: source/core/components/design/designgroup-taxonomy.php:20
+msgid "Parent Designgroup"
+msgstr "Übergeordnete Motivgruppe"
+
+#: source/core/components/design/designgroup-taxonomy.php:21
+msgid "Parent Designgroup:"
+msgstr "Übergeordnete Motivgruppe:"
+
+#: source/core/components/design/designgroup-taxonomy.php:22
+msgid "Search Designgroups"
+msgstr "Suche Motivgruppen"
+
+#: source/core/components/design/designgroup-taxonomy.php:23
+msgid "Popular Designgroups"
+msgstr "Beliebte Motivgruppen"
+
+#: source/core/components/design/designgroup-taxonomy.php:24
+msgid "Separate Designgroups with commas"
+msgstr "Trenne Motivgruppen mit Komma"
+
+#: source/core/components/design/designgroup-taxonomy.php:25
+msgid "Add or remove Designgroups"
+msgstr "Motivgruppe entfernen oder hinzufügen"
+
+#: source/core/components/design/designgroup-taxonomy.php:26
+msgid "Choose from most used Designgroups"
+msgstr "Wähle aus den meistgenutzten Motivgruppen"
+
+#: source/core/components/design/designgroup-taxonomy.php:27
+msgid "No Designgroups found."
+msgstr "Kein Motivgruppen gefunden."
+
+#: source/core/components/design/designgroup-taxonomy.php:38
+msgctxt "Designgroup slug"
+msgid "designs"
+msgstr "designs"
+
+#: source/core/components/design/designtag-taxonomy.php:12,
+#: source/core/components/design/designtag-taxonomy.php:14
+msgid "Design-Tags"
+msgstr "Motivstichworte"
+
+#: source/core/components/design/designtag-taxonomy.php:13
+msgid "Design-Tag"
+msgstr "Motivstichwort"
+
+#: source/core/components/design/designtag-taxonomy.php:15
+msgid "All Design-Tags"
+msgstr "Alle Motivstichworte"
+
+#: source/core/components/design/designtag-taxonomy.php:16
+msgid "Edit Design-Tag"
+msgstr "Bearbeite Motivstichwort"
+
+#: source/core/components/design/designtag-taxonomy.php:17
+msgid "View Design-Tag"
+msgstr "Motivstichwort ansehen"
+
+#: source/core/components/design/designtag-taxonomy.php:18
+msgid "Update Design-Tag"
+msgstr "Motivstichwort aktualisieren"
+
+#: source/core/components/design/designtag-taxonomy.php:19
+msgid "Add Design-Tag"
+msgstr "Motivstichwort hinzufügen"
+
+#: source/core/components/design/designtag-taxonomy.php:20
+msgid "Add new Design-Tag"
+msgstr "Neues Motivstichwort"
+
+#: source/core/components/design/designtag-taxonomy.php:23
+msgid "Search Design-Tags"
+msgstr "Suche Motivstichworte"
+
+#: source/core/components/design/designtag-taxonomy.php:24
+msgid "Popular Design-Tags"
+msgstr "Beliebte Motivstichworte"
+
+#: source/core/components/design/designtag-taxonomy.php:25
+msgid "Separate Design-Tags with commas"
+msgstr "Trenne Motivstichworte mit Komma"
+
+#: source/core/components/design/designtag-taxonomy.php:26
+msgid "Add or remove Design-Tags"
+msgstr "Motivstichwort hinzufügen oder entfernen"
+
+#: source/core/components/design/designtag-taxonomy.php:27
+msgid "Choose from most used Design-Tags"
+msgstr "Wähle aus den meistgenutzten Motivstichworten"
+
+#: source/core/components/design/designtag-taxonomy.php:28
+msgid "No Design-Tags found."
+msgstr "Keine Motivstichworte gefunden."
+
+#: source/core/components/design/designtag-taxonomy.php:40
+msgctxt "Designtag slug"
+msgid "tagged"
+msgstr "tagged"
+
+#: source/core/components/design/functions-design.php:543
+msgid "No Articles"
+msgstr "Keine Artikel"
+
+#: source/core/components/design/functions-design.php:544
+msgid "1 Article"
+msgstr "1 Artikel"
+
+#: source/core/components/design/functions-design.php:545
+msgid "%s Articles"
+msgstr "%s Artikel"
+
+#: source/core/components/printtype/printtype-taxonomy.php:23
+msgid "Printtypes"
+msgstr "Druckarten"
+
+#: source/core/components/printtype/printtype-taxonomy.php:25
+msgctxt "menu_name"
+msgid "Printtypes"
+msgstr "Druckart"
+
+#: source/core/components/printtype/printtype-taxonomy.php:26
+msgid "All Printtypes"
+msgstr "Alle Druckarten"
+
+#: source/core/components/printtype/printtype-taxonomy.php:27
+msgid "Edit Printtype"
+msgstr "Druckart bearbeiten"
+
+#: source/core/components/printtype/printtype-taxonomy.php:28
+msgid "View Printtype"
+msgstr "Druckart ansehen"
+
+#: source/core/components/printtype/printtype-taxonomy.php:29
+msgid "Update Printtype"
+msgstr "Druckart aktualisieren"
+
+#: source/core/components/printtype/printtype-taxonomy.php:34
+msgid "Search Printtypes"
+msgstr "Suche Druckart"
+
+#: source/core/components/printtype/printtype-taxonomy.php:39
+msgid "No Printtypes found."
+msgstr "Keine Druckarten gefunden."
+
+#: source/core/components/printtype/printtype-taxonomy.php:52
+msgctxt "Printtype slug"
+msgid "printtype"
+msgstr "druckart"
+
+#: source/core/components/printtype/printtype-taxonomy.php:101,
+#: source/core/components/producttype/producttype-taxonomy.php:142
+msgid "Helpful Links"
+msgstr "Hilfreiche Links"
+
+#: source/core/components/product-article/product-article-posttype-ui.php:55,
+#: source/core/components/producttype/producttype-taxonomy.php:108
+msgid "Spreadshirt ID"
+msgstr "Spreadshirt ID"
+
+#: source/core/components/product-article/product-article-posttype-ui.php:57
+msgid "Product ID"
+msgstr "Produkt ID"
+
+#: source/core/components/product-article/product-article-posttype-ui.php:58
+msgid "Article ID"
+msgstr "Artikel ID"
+
+#: source/core/components/product-article/product-article-posttype.php:24
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+#: source/core/components/product-article/product-article-posttype.php:26
+msgid "View Product"
+msgstr "Produkt anzeigen"
+
+#: source/core/components/product-article/product-article-posttype.php:27
+msgid "Search Products"
+msgstr "Suche Produkte"
+
+#: source/core/components/product-article/product-article-posttype.php:28
+msgid "No Products found."
+msgstr "Keine Produkte gefunden."
+
+#: source/core/components/product-article/product-article-posttype.php:29
+msgid "No Products found in Trash"
+msgstr "Keine Produkte im Papierkorb gefunden"
+
+#: source/core/components/product-article/product-article-posttype.php:31
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: source/core/components/product-article/product-article-posttype.php:32
+msgid "Product Archives"
+msgstr "Produktarchive"
+
+#: source/core/components/product-article/product-article-posttype.php:33
+msgid "Insert into Product"
+msgstr "Zu Produkt hinzufügen"
+
+#: source/core/components/product-article/product-article-posttype.php:34
+msgid "Uploaded to this Product"
+msgstr "Zu diesem Produkt hochgeladen"
+
+#: source/core/components/product-article/product-article-posttype.php:48
+msgctxt "Product posttype description"
+msgid "Spreadshirt Products"
+msgstr "Spreadshirt Produkte"
+
+#: source/core/components/product-article/product-article-posttype.php:65
+msgctxt "Product Archive Slug"
+msgid "all-products"
+msgstr "alle-produkte"
+
+#: source/core/components/product-article/product-article-posttype.php:66
+msgctxt "Product Slug"
+msgid "product"
+msgstr "product"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:11,
+#: source/core/components/product-article/productgroup-taxonomy.php:13
+msgid "Productgroups"
+msgstr "Produktgruppen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:12
+msgid "Productgroup"
+msgstr "Produktgruppe"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:14
+msgid "All Productgroups"
+msgstr "Alle Produktgruppen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:15
+msgid "Edit Productgroup"
+msgstr "Produktgruppe bearbeiten"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:16
+msgid "View Productgroup"
+msgstr "Produktgruppe ansehen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:17
+msgid "Update Productgroup"
+msgstr "Produktgruppe aktualisieren"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:18
+msgid "Add Productgroup"
+msgstr "Produktgruppe hinzufügen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:19
+msgid "Add new Productgroup"
+msgstr "Neue Produktgruppe hinzufügen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:20
+msgid "Parent Productgroup"
+msgstr "Übergeordnete Produktgruppe"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:21
+msgid "Parent Productgroup:"
+msgstr "Übergeordnete Produktgruppe:"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:22
+msgid "Search Productgroups"
+msgstr "Suche Produktgruppen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:23
+msgid "Popular Productgroups"
+msgstr "Beliebte Produktgruppen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:24
+msgid "Separate Productgroups with commas"
+msgstr "Trenne Produktgruppen mit Komma"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:25
+msgid "Add or remove Productgroups"
+msgstr "Produktgruppe hinzufügen oder entfernen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:26
+msgid "Choose from most used Productgroups"
+msgstr "Wähle aus den meistgenutzten Produktgruppen"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:27
+msgid "No Productgroups found."
+msgstr "Keine Produktgruppe gefunden"
+
+#: source/core/components/product-article/productgroup-taxonomy.php:36
+msgctxt "Productgroup slug"
+msgid "products"
+msgstr "products"
+
+#: source/core/components/producttype/functions-producttype.php:491
+msgctxt "Articles Count Zero"
+msgid "No Articles"
+msgstr "Keine Artikel"
+
+#: source/core/components/producttype/functions-producttype.php:499
+msgctxt "Articles Count Singular/One"
+msgid "One Article"
+msgstr "Ein Artikel"
+
+#: source/core/components/producttype/functions-producttype.php:507
+msgctxt "Articles Count Plural"
+msgid "%d Articles"
+msgstr "%s Artikel"
+
+#: source/core/components/producttype/producttype-taxonomy.php:18,
+#: source/core/components/producttype/producttype-taxonomy.php:20
+msgid "Producttypes"
+msgstr "Produkttypen"
+
+#: source/core/components/producttype/producttype-taxonomy.php:21
+msgid "All Producttypes"
+msgstr "Alle Produkttypen"
+
+#: source/core/components/producttype/producttype-taxonomy.php:22
+msgid "Edit Producttype"
+msgstr "Produkttyp bearbeiten"
+
+#: source/core/components/producttype/producttype-taxonomy.php:23
+msgid "View Producttype"
+msgstr "Produkttyp anzeigen"
+
+#: source/core/components/producttype/producttype-taxonomy.php:24
+msgid "Update Producttype"
+msgstr "Produkttyp aktualisieren"
+
+#: source/core/components/producttype/producttype-taxonomy.php:29
+msgid "Search Producttypes"
+msgstr "Suche Produkttypen"
+
+#: source/core/components/producttype/producttype-taxonomy.php:34
+msgid "No Producttypes found."
+msgstr "Keine Produkttypen gefunden."
+
+#: source/core/components/producttype/producttype-taxonomy.php:51
+msgctxt "Producttype slug"
+msgid "producttype"
+msgstr "produkttyp"
+
+#: source/core/components/shop/shop-options.php:11
+msgid "Shop Settings"
+msgstr "Shop Einstellungen"
+
+#: source/core/components/shop/shop-options.php:13
+msgctxt "menu name"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: source/core/components/shop/shop-options.php:62
+msgid "We are unable to find this shop. Did you choose the correct host?"
+msgstr ""
+"Wir können diesen Shop nicht finden. Hast du den richtigen Host ausgewählt?"
+
+#: source/core/components/shop/shop-options.php:188
+msgid ""
+"It is not recommended to change this setting after the shop was initiated. "
+"To change it anyways, you have to add %s to your wp-config file."
+msgstr ""
+"Es wird nicht empfohlen diese Einstellung zu ändern, nachdem der Shop "
+"eingerichtet wird. Um sie dennoch zu ändern, musst du %s zu deine wp-config "
+"Datei hinzufügen."
+
+#: source/core/components/synchronization/synchronization-api.php:85
+msgid "Finished Sync at %s"
+msgstr "Synchronisation beendet bei %s"
+
+#: source/core/components/synchronization/synchronization-screen.php:30,
+#: source/core/components/synchronization/synchronization-screen.php:101
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+#: source/core/components/synchronization/synchronization-screen.php:32
+msgctxt "menu name"
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+#: source/core/components/synchronization/synchronization-screen.php:111
+msgid "Start"
+msgstr "Starten"
+
+#: source/core/components/synchronization/synchronization-screen.php:113
+msgid "Stop"
+msgstr "Stoppen"
+
+#: source/core/components/synchronization/synchronization-screen.php:116
+msgid "Force Updates (slow)"
+msgstr "Updates erzwingen (langsam)"
+
+#: source/core/components/synchronization/synchronization-screen.php:121
+msgid "Time to start your first Synchronization!"
+msgstr "Zeit deine erste Synchronisation zu starten!"
+
+#: source/core/components/synchronization/synchronization-screen.php:125
+msgid "Last Sync:"
+msgstr "Letzte Synchronisation:"
+
+#: source/core/components/synchronization/synchronization-screen.php:125
+msgctxt "%s human time diff"
+msgid "%s ago"
+msgstr "vor %s"
+
+#: source/core/components/synchronization/synchronization-screen.php:145
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: source/core/includes/acf/acf-utils.php:97
+msgid ""
+"This is a hidden setting, please do not change it unless you know exactly "
+"what you're doing!"
+msgstr ""
+"Dies ist eine versteckte Einstellung, bitte ändere hier nichts, außer du "
+"weißt genau was du tust!"
+
+#: source/core/includes/acf/location-sfw-active.php:17
+msgid "SFW Status"
+msgstr "SFW Status"
+
+#: source/core/components/templates/theme/basket-checkout.php:8
+msgid ""
+"Sorry, we had trouble adding your product to the cart! Please try again :("
+msgstr ""
+"Entschuldige, wir hatten Probleme damit das Produkt in den Warenkorb zu "
+"legen. Bitte versuche es erneut :("
+
+#: source/core/components/templates/theme/basket-checkout.php:27
+msgid "Checkout"
+msgstr "Kasse"
+
+#: source/core/components/templates/theme/misc.php:18
+msgid "One Product with this Design"
+msgid_plural "%s Products with this Design"
+msgstr[0] "Ein Produkt mit diesem Motiv"
+msgstr[1] "%s Produkte mit diesem Motiv"
+
+#: source/core/components/templates/theme/orderform.php:69
+msgid "Add to Cart"
+msgstr "In den Warenkorb"
+
+#: source/core/components/templates/theme/orderform.php:232
+msgid "Sorry, this product is currently unavailable :("
+msgstr "Entschuldige, dieses Produkt ist momentan nicht verfügbar :("
+
+#: source/core/components/templates/theme/orderform.php:282
+msgid "Customize"
+msgstr "Anpassen"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:15
+msgid "Departments"
+msgstr "Produktkategorien"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:16
+msgid "Department"
+msgstr "Produktkategorie"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:17
+msgctxt "menu_name"
+msgid "Departments"
+msgstr "Produktkategorien"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:18
+msgid "All Departments"
+msgstr "Alle Produktkategorien"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:19
+msgid "Edit Department"
+msgstr "Bearbeite Produktkategorie"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:20
+msgid "View Department"
+msgstr "Produktkategorie ansehen"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:21
+msgid "Update Department"
+msgstr "Aktualisiere Produktkategorie"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:22
+msgid "Add Department"
+msgstr "Produktkategorie hinzufügen"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:23
+msgid "Add new Department"
+msgstr "Neue Produktkategorie hinzufügen"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:24
+msgid "Parent Department"
+msgstr "Übergeordnete Produktkategorie"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:25
+msgid "Parent Department:"
+msgstr "Übergeordnete Produktkategorie:"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:26
+msgid "Search Departments"
+msgstr "Suche Produktkategorie"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:27
+msgid "Popular Departments"
+msgstr "Beliebte Produktkategorien"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:31
+msgid "No Departments found."
+msgstr "Kein Produktkategorie gefunden"
+
+#: source/pro/core/components/departments/departments-taxonomy.php:46
+msgctxt "department slug"
+msgid "department"
+msgstr "produktkategorie"
+
+#: source/pro/core/components/promotions/class-promotion-manager.php:46
+msgid "Default"
+msgstr "Standard"
+
+#: source/pro/core/components/promotions/class-promotion-manager.php:47
+msgid "This is the default promotion location."
+msgstr "Dies ist die Standardposition für Promotionen"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:23
+msgid "expired"
+msgstr "abgelaufen"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:28,
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:33
+msgid "planned"
+msgstr "geplant"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:38,
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:42
+msgid "active"
+msgstr "aktiv"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:78
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:88
+msgid "End Date"
+msgstr "Enddatum"
+
+#: source/pro/core/components/promotions/promotions-posttype-ui.php:98
+msgid "Theme Locations"
+msgstr "Themepositionen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:19,
+#: source/pro/core/components/promotions/promotions-posttype.php:39,
+#: source/pro/core/components/promotions/promotions-posttype.php:40,
+#: source/pro/core/components/promotions/promotions-posttype.php:41
+msgid "Promotions"
+msgstr "Promotions"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:20
+msgid "Promotion"
+msgstr "Promotion"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:21
+msgctxt "promotion"
+msgid "Add New"
+msgstr "Neue Promo"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:22
+msgid "Add New Promotion"
+msgstr "Neue Promo hinzufügen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:23
+msgid "Edit Promotion"
+msgstr "Promo bearbeiten"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:24
+msgid "New Promotion"
+msgstr "Neue Promo"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:25
+msgid "View Promotion"
+msgstr "Promo anzeigen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:26
+msgid "Search Promotions"
+msgstr "Suche Promotion"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:27
+msgid "No Promotions found."
+msgstr "Keine Promotion gefunden"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:28
+msgid "No Promotions found in Trash"
+msgstr "Keine Promotion im Papierkorb gefunden"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:30
+msgid "All Promotions"
+msgstr "Alle Promos"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:32
+msgid "Insert into Promotion"
+msgstr "Zu Promo hinzufügen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:33
+msgid "Uploaded to this Promotion"
+msgstr "Zu dieser Promotion hochgeladen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:38
+msgctxt "menu_name"
+msgid "Promotions"
+msgstr "Promotionen"
+
+#: source/pro/core/components/promotions/promotions-posttype.php:47
+msgctxt "Promotion posttype description"
+msgid "Plan the advertising of Spreadshirt Promotions in your Shop."
+msgstr "Plane das Bewerben von Spreadshirt Promotionen in deinem Shop"
+
+#: source/pro/core/components/promotions/promotions.php:24
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: source/pro/core/components/promotions/promotions.php:25
+msgid "Before every Template"
+msgstr "Vor jedem Template"
+
+#: source/pro/core/components/updates/updates.php:18
+msgid "Automatic Updates"
+msgstr "Automatische Updates"
+
+#: source/pro/core/components/updates/updates.php:20
+msgid "Updates"
+msgstr "Updates"
+
+#~ msgid "Synchonize your Spreadshirt Shop with your Worpdress Database"
+#~ msgstr "Synchronisiere deinen Spreadshirt Shop mit deiner WordPress"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "All Designer"
+#~ msgstr "Alle Designer"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - Printtype Settings"
+#~ msgstr "Spreadshirt - Druckart Einstellungen"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - Promotion Settings"
+#~ msgstr "Spreadshirt - Promotion Einstellungen"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - Advanced Design Settings"
+#~ msgstr "Spreadshirt - Erweiterte Design Einstellungen"
+
+#~ msgctxt "acf"
+#~ msgid "ProductTypes"
+#~ msgstr "Produkttypen"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - Department Settings"
+#~ msgstr "Spreadshirt - Produktkategorie Einstellungen"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - API Settings"
+#~ msgstr "Spreadshirt - API Einstellungen"
+
+#~ msgctxt "acf"
+#~ msgid "Spreadshirt - T-Shirt Designer"
+#~ msgstr "Spreadshirt - T-Shirt Designer"
+
+#~ msgid "incl. VAT (EU)"
+#~ msgstr "inkl. MwSt."
+
+#~ msgctxt "%% escapes %, %s the vat percentage"
+#~ msgid "incl. %s%% VAT"
+#~ msgstr "inkl. %s%% Steuern"
+
+#~ msgid "Spreadshirt Catalog"
+#~ msgstr "Spreadshirt Katalog"
+
+#~ msgid "Color"
+#~ msgstr "Farbe"
+
+#~ msgid "Getting Started"
+#~ msgstr "Erste Schritte"
+
+#~ msgid "Param"
+#~ msgstr "Parameter"
+
+#~ msgid "Design Id"
+#~ msgstr "Motiv Id"
+
+#~ msgid "A valid Spreadshirt Design ID"
+#~ msgstr "Eine gültige Spreadshirt Motiv Id"
+
+#~ msgid "First Design Color"
+#~ msgstr "Erste Designfarbe"
+
+#~ msgid "A Spreadshirt PrintColor ID"
+#~ msgstr "Eine Spreadshirt Drucktyp Id"
+
+#~ msgid "Second Design Color"
+#~ msgstr "Zweite Designfarbe"
+
+#~ msgid "Third Design Color"
+#~ msgstr "Dritte Designfarbe"
+
+#~ msgid "Hexcode without leading #"
+#~ msgstr "Hexcode ohne führendes #"
+
+#~ msgid "Product Id"
+#~ msgstr "Produkt Id"
+
+#~ msgid "A valid Spreadshirt Product ID"
+#~ msgstr "Eine gültige Spreadshirt Produkt Id"
+
+#~ msgid "Appearance Id"
+#~ msgstr "Produktfarben Id"
+
+#~ msgid "A valid Spreadshirt Appearance ID"
+#~ msgstr "Eine gültige Spreadshirt Produktfarben Id"
+
+#~ msgid "Size Id"
+#~ msgstr "Größen Id"
+
+#~ msgid "A valid Spreadshirt Size ID. Preselects the choosen Size."
+#~ msgstr "Eine gültige Spreadshirt Größen Id. Selektiert die Größe vor."
+
+#~ msgid "View Id"
+#~ msgstr "Ansichts Id"
+
+#~ msgid "A valid Spreadshirt View ID."
+#~ msgstr "Eine gültige Spreadshirt Ansichts Id"
+
+#~ msgid "Designer Tab"
+#~ msgstr "Designer Tab"
+
+#~ msgid "Preselected Tab"
+#~ msgstr "Fokussierter Tab"
+
+#~ msgid "First line of text"
+#~ msgstr "Erste Textzeile"
+
+#~ msgid "Second line of text"
+#~ msgstr "Zweite Textzeile"
+
+#~ msgid "Third line of text"
+#~ msgstr "Dritte Textzeile"
+
+#~ msgid "Text Color"
+#~ msgstr "Textfarbe"
+
+#~ msgid "ProductType ID"
+#~ msgstr "Produkttyp Id"
+
+#~ msgid "A Spreadshirt ProductType ID"
+#~ msgstr "Eine gültige Spreadshirt Produkttyp Id"
+
+#~ msgid "Department ID"
+#~ msgstr "Produkttypenkategorie Id (Department)"
+
+#~ msgid "A Spreadshirt Department ID"
+#~ msgstr "Eine Spreadshirt Produkttypenkategorie Id (Department)"
+
+#~ msgid "ProductType Category ID"
+#~ msgstr "Produkttypenkategorie Id"
+
+#~ msgid "A Spreadshirt ProductType Category ID"
+#~ msgstr "Eine Spreadshirt Produkttypenkategorie Id"
+
+#~ msgid "Design Category ID"
+#~ msgstr "Motivkategorie Id"
+
+#~ msgid "A Spreadshirt Design Category ID"
+#~ msgstr "Eine Spreadshirt Motivkategorie Id"
+
+#~ msgid "Search Query"
+#~ msgstr "Suchbegriff"
+
+#~ msgid "Filter Designs by search term"
+#~ msgstr "Filtert Motive mit Suchbegriff"
+
+#~ msgctxt "%s link to acf"
+#~ msgid ""
+#~ "You can disable your Plugin, so we can include the pro version for you. "
+#~ "Or head over to %s and support this amazing plugin by buying a license."
+#~ msgstr ""
+#~ "Du kannst dein Plugin deaktiveren, wir binden dann automatisch die Pro "
+#~ "Version ein. Oder du besuchst %s und unterstützt dieses tolle Plugin "
+#~ "durch den Kauf einer Lizenz!"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Printtype "
+#~ "Settings"
+#~ msgid "Spreadshirt - Printtype Settings"
+#~ msgstr "Spreadshirt - Druckart Einstellungen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Promotion "
+#~ "Settings"
+#~ msgid "Start Date"
+#~ msgstr "Startdatum"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Promotion "
+#~ "Settings"
+#~ msgid "End Date"
+#~ msgstr "Enddatum"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Promotion "
+#~ "Settings"
+#~ msgid "Choose Promotion Locations:"
+#~ msgstr "Wähle Promo Position"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Promotion "
+#~ "Settings"
+#~ msgid "Spreadshirt - Promotion Settings"
+#~ msgstr "Spreadshirt - Promotion Einstellungen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Advanced "
+#~ "Design Settings"
+#~ msgid "Background Color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Advanced "
+#~ "Design Settings"
+#~ msgid "Choose a favorite Background Color for this Designs"
+#~ msgstr "Wähle eine favorisierte Hintergrundfarbe für dieses Motiv"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Advanced "
+#~ "Design Settings"
+#~ msgid "Background Shade"
+#~ msgstr "Hintergrundtönung"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Advanced "
+#~ "Design Settings"
+#~ msgid "Parent Design"
+#~ msgstr "Übergeordnetes Motiv"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Advanced "
+#~ "Design Settings"
+#~ msgid "Spreadshirt - Advanced Design Settings"
+#~ msgstr "Spreadshirt - Erweiterte Motiv Einstellungen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Department "
+#~ "Settings"
+#~ msgid "ProductTypes"
+#~ msgstr "Produkttypen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Department "
+#~ "Settings"
+#~ msgid ""
+#~ "Please choose all ProductTypes that will be shown in Archives of this "
+#~ "Department"
+#~ msgstr ""
+#~ "Bitte wähle alle Produkttypen deren Artikel in dieser Produktkategorie "
+#~ "angezeigt werden sollen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - Department "
+#~ "Settings"
+#~ msgid "Spreadshirt - Department Settings"
+#~ msgstr "Spreadshirt - Produktkategorie Einstellungen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Api-Secret"
+#~ msgstr "Api-Secret"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Your Spreadshirt API Secret"
+#~ msgstr "Deine Spreadshirt API Secret"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Api-Key"
+#~ msgstr "Api-Key"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Your Spreadshirt API Key"
+#~ msgstr "Dein Spreadshirt API Key"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Spreadshirt Platform"
+#~ msgstr "Spreadshirt Plattform"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Please choose your Spreadshirt Platform"
+#~ msgstr "Bitte wähle deine Spreadshirt Plattform"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Spreadshirt.net ( Europe )"
+#~ msgstr "Spreadshirt.net ( Europa )"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Spreadshirt.com ( North America )"
+#~ msgstr "Spreadshirt.com ( Nordamerika )"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Shop Id"
+#~ msgstr "Shop Id"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "The ID of your Spreadshirt Shop."
+#~ msgstr "Die ID deines Spreadshirt Shops"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - API Settings"
+#~ msgid "Spreadshirt - API Settings"
+#~ msgstr "Spreadshirt - API Einstellungen"
+
+#~ msgctxt ""
+#~ "Generated translatable string for fieldgroup Spreadshirt - T-Shirt "
+#~ "Designer"
+#~ msgid "Advice"
+#~ msgstr "Hinweis"
+
+#~ msgid "Welcome to Spreadshirt for Wordpress by Apprarelcuts!"
+#~ msgstr "Willkommen bei Spreadshirt für Wordpress von Apparelcuts!"
+
+#~ msgid "Couldn't create Post."
+#~ msgstr "Konnte Beitrage nicht erstellen"
+
+#~ msgctxt "Articles Count Plural"
+#~ msgid "% Articles"
+#~ msgstr "% Artikel"
+
+#~ msgid "Promotion Archives"
+#~ msgstr "Promotionarchiv"
+
+#~ msgctxt "fallback currency pattern"
+#~ msgid "% $"
+#~ msgstr "% $"

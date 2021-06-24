@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'apparelcuts-icons';
+  src:  url('apparelcuts-icons.eot?1555338382239');
+  src:  url('apparelcuts-icons.eot?1555338382239#iefix') format('embedded-opentype'),
+    url('apparelcuts-icons.ttf?1555338382239') format('truetype'),
+    url('apparelcuts-icons.woff?1555338382239') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ac {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'apparelcuts-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ac-badge-new:before { 
+	content:"\ea03";
+}
+
+.ac-cart-1:before { 
+	content:"\ea10";
+}
+
+.ac-cart-2:before { 
+	content:"\ea11";
+}
+
+.ac-cart-3:before { 
+	content:"\ea12";
+}
+
+.ac-cart-4:before { 
+	content:"\ea13";
+}
+
+.ac-cart-5:before { 
+	content:"\ea14";
+}
+
+.ac-cart-alt:before { 
+	content:"\ea15";
+}
+
+.ac-cart:before { 
+	content:"\ea16";
+}
+
+.ac-envelope-o:before { 
+	content:"\ea1a";
+}
+
+.ac-envelope:before { 
+	content:"\ea1b";
+}
+
+.ac-gift:before { 
+	content:"\ea1e";
+}
+
+.ac-giftcard:before { 
+	content:"\ea22";
+}
+
+.ac-iheart:before { 
+	content:"\ea2f";
+}
+
+.ac-info:before { 
+	content:"\ea30";
+}
+
+.ac-leaf-o:before { 
+	content:"\ea34";
+}
+
+.ac-leaf:before { 
+	content:"\ea35";
+}
+
+.ac-loader:before { 
+	content:"\ea36";
+}
+
+.ac-pencil:before { 
+	content:"\ea43";
+}
+
+.ac-question:before { 
+	content:"\ea47";
+}
+
+.ac-select-shirt:before { 
+	content:"\ea4c";
+}
+
+.ac-shirt-check:before { 
+	content:"\ea4e";
+}
+
+.ac-shirt-edit:before { 
+	content:"\ea50";
+}
+
+.ac-shirt-iheart-o:before { 
+	content:"\ea53";
+}
+
+.ac-shirt-iheart:before { 
+	content:"\ea54";
+}
+
+.ac-shirt-minus:before { 
+	content:"\ea56";
+}
+
+.ac-shirt-neck-o:before { 
+	content:"\ea57";
+}
+
+.ac-shirt-o:before { 
+	content:"\ea58";
+}
+
+.ac-shirt-stack-o:before { 
+	content:"\ea5b";
+}
+
+.ac-shirt-striped:before { 
+	content:"\ea5c";
+}
+
+.ac-shirt:before { 
+	content:"\ea60";
+}
+
+.ac-shop:before { 
+	content:"\ea61";
+}
+
+.ac-spreadshirt-heart:before { 
+	content:"\ea66";
+}
+
+.ac-spreadshirt:before { 
+	content:"\ea67";
+}
+
+.ac-star-o:before { 
+	content:"\ea6a";
+}
+
+.ac-star:before { 
+	content:"\ea6b";
+}
+
+.ac-trash-o:before { 
+	content:"\ea7f";
+}
+
+.ac-trash:before { 
+	content:"\ea80";
+}
+
+.ac-apparelcuts-small:before { 
+	content:"\ea86";
+}
+
+.ac-pro:before { 
+	content:"\ea89";
+}
+

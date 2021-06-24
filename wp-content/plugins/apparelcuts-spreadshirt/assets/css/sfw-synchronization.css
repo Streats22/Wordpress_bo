@@ -1,0 +1,199 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.5.3
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/**
+ * Fix for vw, vh, vmin, vmax on iOS 7.
+ * http://caniuse.com/#feat=viewport-units
+ *
+ * This fix works by replacing viewport units with px values on known screen sizes.
+ *
+ * iPhone 6 and 6 Plus cannot run iOS 7, so are not targeted by this fix.
+ * Target devices running iOS 8+ will incidentally execute the media query,
+ * but this will still produce the expected result; so this is not a problem.
+ *
+ * As an example, replace:
+ *
+ *   height: 50vh;
+ *   font-size: 5vmin;
+ *
+ * with:
+ *
+ *   @include viewport-unit(height, 50vh);
+ *   @include viewport-unit(font-size, 5vmin);
+ */
+#sfw-sync-log {
+  height: 200px;
+  font-family: monospace;
+  color: #999;
+  font-size: 12px;
+  line-height: 1em;
+  overflow-y: scroll;
+  background-color: #eee;
+  border: thin solid #ccc;
+}
+
+#sfw-sync-log p {
+  margin: .15em;
+  padding: 0;
+}
+
+#sfw-sync-log .-error {
+  font-weight: bold;
+  color: tomato;
+}
+
+#sfw-sync-log .-success {
+  font-weight: bold;
+  color: black;
+}
+
+.sfw-progress-bar .-sfw-label {
+  font-size: .9em;
+  text-align: center;
+  color: black;
+  margin: .5em;
+}
+
+.sfw-progress-bar .-sfw-bar {
+  background-color: rgba(90, 218, 208, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 2px auto;
+  max-width: 300px;
+}
+
+.sfw-progress-bar .-sfw-bar .-sfw-progress {
+  height: 5px;
+  background-color: #5ADAD0;
+  width: 0;
+}
+
+#sfw-progress-secondary .-sfw-label {
+  color: #ccc;
+}
+
+#sfw-progress-secondary .-sfw-progress {
+  background-color: rgba(90, 218, 208, 0.5);
+}
+
+#sfw-stage {
+  height: 280px;
+  width: 280px;
+  margin: auto;
+  position: relative;
+}
+
+#sfw-stage .ac, #sfw-stage img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#sfw-stage img {
+  width: 150px;
+  height: 150px;
+}
+
+#sfw-stage .ac {
+  font-size: 200px;
+  color: #5adad0;
+}
+
+body.sfw-sync-failed #sfw-stage .ac {
+  color: #FA7268;
+}
+
+body.sfw-sync-running #sfw-stage {
+  -webkit-animation: pulse 1500ms infinite;
+  animation: pulse 1500ms infinite;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+#wpwrap {
+  background: white !important;
+}
+
+.postbox#mb-sync-progress {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+.postbox#mb-sync-progress .hndle, .postbox#mb-sync-progress .handlediv {
+  display: none;
+}
+
+.postbox#mb-sync-progress #sfw-sync {
+  max-width: 600px;
+  margin: auto;
+}
+
+.postbox#mb-sync-stats .cell {
+  font-size: .8rem;
+}
+
+.postbox#mb-sync-stats [data-stats-group] {
+  margin-bottom: 1em;
+}
+
+.postbox#mb-sync-stats [data-stats-group] .grid-x {
+  padding: .5em 1em;
+}
+
+.postbox#mb-sync-stats h4 {
+  margin: 0.5em 0;
+  font-size: .8rem;
+}
+
+.postbox#mb-sync-stats .grid-x:nth-of-type(odd) {
+  background: #f8f8f8;
+}
+
+.postbox#mb-sync-stats .grid-x:nth-of-type(even) {
+  background: #eee;
+}
+
+label[for="force_update"] {
+  color: #666;
+  font-size: small;
+}
+
+input:disabled + label {
+  color: #ccc;
+}

@@ -1,0 +1,61 @@
+{
+   "domain": "apparelcuts-spreadshirt",
+   "locale_data": {
+      "apparelcuts-spreadshirt": {
+         "": {
+            "domain": "apparelcuts-spreadshirt",
+            "plural_forms": "nplurals=2; plural=(n != 1);",
+            "lang": "de"
+         },
+         "State": [
+            "Bundesland\t"
+         ],
+         "Delivery country": [
+            "Lieferland"
+         ],
+         "available": [
+            "verfügbar"
+         ],
+         "currently unavailable": [
+            "derzeit nicht verfügbar"
+         ],
+         "Only available in other colors": [
+            "Nur in anderen Farben verfügbar"
+         ],
+         "Only available in other sizes": [
+            "Nur in anderen Größen verfügbar"
+         ],
+         "Your Basket is currently empty": [
+            "Dein Warenkorb ist momentan leer"
+         ],
+         "Total Items": [
+            "Gesamt Artikel"
+         ],
+         "Shipping": [
+            "Versandkosten"
+         ],
+         "Total": [
+            "Gesamt"
+         ],
+         "Incl. Vat, incl. Shipping": [
+            "inkl. MwSt., inkl. Versand"
+         ],
+         "Remove": [
+            "Entfernen"
+         ],
+         "Edit": [
+            "Bearbeiten"
+         ],
+         "1 Item": [
+            "1 Artikel",
+            "%1$s Artikel"
+         ],
+         "%s price min in shipping costs table\u0004%s and above": [
+            "%s und darüber"
+         ],
+         "estimated shipping, %s$1 min days, %s$2 max days\u0004Delivery time: %1$s - %2$s working days": [
+            "Lieferzeit: %1$s - %2$s Werktage"
+         ]
+      }
+   }
+}

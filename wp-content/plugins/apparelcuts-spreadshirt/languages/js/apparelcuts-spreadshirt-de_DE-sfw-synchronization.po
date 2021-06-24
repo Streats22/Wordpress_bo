@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: source/assets/dist/sfw-synchronization.js:186
+msgid "Other"
+msgstr "Andere"
+
+#: source/assets/dist/sfw-synchronization.js:331
+msgid "%1$s hours and %2$s minutes"
+msgstr "%1$s Stunden und %2$s Minuten"
+
+#: source/assets/dist/sfw-synchronization.js:333
+msgid "one hour and %1$s minutes"
+msgstr "Eine Stunde und %1$s Minuten"
+
+#: source/assets/dist/sfw-synchronization.js:335
+msgid "%1$s minutes"
+msgstr "%1$s Minuten"
+
+#: source/assets/dist/sfw-synchronization.js:337
+msgid "one minute and %1$s seconds"
+msgstr "Eine Minute und %1$s Sekunden"
+
+#: source/assets/dist/sfw-synchronization.js:379
+msgid "Failed Tasks"
+msgstr "Fehlgeschlagene Aufgaben"
+
+#: source/assets/dist/sfw-synchronization.js:379
+msgid "Errors"
+msgstr "Fehler"
+
+#: source/assets/dist/sfw-synchronization.js:408
+msgid "Synchronization stopped manually"
+msgstr "Synchronisation manuell angehalten"
+
+#: source/assets/dist/sfw-synchronization.js:556
+msgid "%1$s Items found"
+msgstr "%1$s Einheiten gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:663
+msgid "Syncing..."
+msgstr "Synchronisiere…"
+
+#: source/assets/dist/sfw-synchronization.js:874
+msgid "New"
+msgstr "Neu"
+
+#: source/assets/dist/sfw-synchronization.js:875
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: source/assets/dist/sfw-synchronization.js:876
+msgid "Update (forced)"
+msgstr "Aktualisieren (erzwungen)"
+
+#: source/assets/dist/sfw-synchronization.js:876
+msgid "No Action"
+msgstr "Keine Aktion"
+
+#: source/assets/dist/sfw-synchronization.js:878
+msgid "Removed"
+msgstr "Entfernt"
+
+#: source/assets/dist/sfw-synchronization.js:956
+msgid "Syncing Database Articles"
+msgstr "Synchronisiere Datenbank Produkte"
+
+#: source/assets/dist/sfw-synchronization.js:965
+msgid "%1$s Articles found"
+msgstr "%1$s Produkte gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:966
+msgid "Articles"
+msgstr "Produkte"
+
+#: source/assets/dist/sfw-synchronization.js:974
+msgid "Syncing Shop Articles"
+msgstr "Synchronisiere Shop Produkte"
+
+#: source/assets/dist/sfw-synchronization.js:993
+msgid "Preparing Article Updates"
+msgstr "Produktupdates vorbereiten"
+
+#: source/assets/dist/sfw-synchronization.js:1035
+msgid "Trashing Shop Articles"
+msgstr "Produkte entfernen"
+
+#: source/assets/dist/sfw-synchronization.js:1120
+msgid "%1$s Producttypes found"
+msgstr "%1$s Produkttypen gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:1121
+msgid "Producttypes"
+msgstr "Produkttypen"
+
+#: source/assets/dist/sfw-synchronization.js:1129
+msgid "Syncing Shop Producttypes"
+msgstr "Synchronisiere Produkttypen"
+
+#: source/assets/dist/sfw-synchronization.js:1139
+msgid "%1$s ProductTypes found"
+msgstr "%1$s Produkttypen gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:1148
+msgid "Preparing Producttype Updates"
+msgstr "Produkttypenupdate vorbereiten"
+
+#: source/assets/dist/sfw-synchronization.js:1166
+msgid "Syncing Shop ProductTypes"
+msgstr "Synchronisiere Shop Produkttypen"
+
+#: source/assets/dist/sfw-synchronization.js:1192
+msgid "Syncing Shop Designs"
+msgstr "Synchronisiere Shop Motive"
+
+#: source/assets/dist/sfw-synchronization.js:1202
+msgid "%1$s Designs found"
+msgstr "%1$s Motive gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:1203
+msgid "Designs"
+msgstr "Motive"
+
+#: source/assets/dist/sfw-synchronization.js:1227
+msgid "Syncing Shop PrintTypes"
+msgstr "Synchronisiere Shop Druckarten"
+
+#: source/assets/dist/sfw-synchronization.js:1237
+msgid "%1$s PrintTypes found"
+msgstr "%1$s Druckarten gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:1238
+msgid "Printtypes"
+msgstr "Druckarten"
+
+#: source/assets/dist/sfw-synchronization.js:1280
+msgid "%1$s Departments found"
+msgstr "%1$s Produktkategorien gefunden"
+
+#: source/assets/dist/sfw-synchronization.js:1337
+msgid "Syncing Shop Departments"
+msgstr "Synchronisiere Produktkategorien"

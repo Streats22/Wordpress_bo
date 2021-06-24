@@ -1,0 +1,101 @@
+{
+    "key": "group_5c94f2c162d43",
+    "title": "Synchronization",
+    "fields": [
+        {
+            "key": "field_5c94f2e2d5dd1",
+            "label": "New Products post status",
+            "name": "sfw-sync-product-post-status",
+            "type": "select",
+            "instructions": "When new products are added to the shop, they will receive this post status",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "private": "private",
+                "pending": "pending",
+                "draft": "draft",
+                "publish": "publish"
+            },
+            "default_value": [
+                "publish"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5c950a2a7285a",
+            "label": "Local Timeout",
+            "name": "sfw-sync-local-timeout",
+            "type": "number",
+            "instructions": "Timeout between requests to your own server",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 500,
+            "placeholder": "",
+            "prepend": "milliseconds",
+            "append": "",
+            "min": 1,
+            "max": 180000,
+            "step": ""
+        },
+        {
+            "key": "field_5c950c597285b",
+            "label": "Remote Timeout",
+            "name": "sfw-sync-remote-timeout",
+            "type": "number",
+            "instructions": "Timeout between requests to the Spreadshirt servers",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 500,
+            "placeholder": "",
+            "prepend": "milliseconds",
+            "append": "",
+            "min": 1,
+            "max": 180000,
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "sfw_options_page",
+                "operator": "==",
+                "value": "sfw-shop-settings"
+            },
+            {
+                "param": "sfw_status",
+                "operator": "==",
+                "value": "is_configured"
+            }
+        ]
+    ],
+    "menu_order": 90,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "Shop Settings",
+    "private": null,
+    "modified": 1554985986
+}

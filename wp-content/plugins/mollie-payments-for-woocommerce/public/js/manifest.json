@@ -1,0 +1,12 @@
+{
+  "public/js/applepay.min.js": "/public/js/applepay.min.js",
+  "public/js/applepayDirect.min.js": "/public/js/applepayDirect.min.js",
+  "public/js/applepayDirectCart.min.js": "/public/js/applepayDirectCart.min.js",
+  "public/js/babel-polyfill.min.js": "/public/js/babel-polyfill.min.js",
+  "public/js/gatewaySettings.min.js": "/public/js/gatewaySettings.min.js",
+  "public/js/gatewaySurcharge.min.js": "/public/js/gatewaySurcharge.min.js",
+  "public/js/mollie-components.min.js": "/public/js/mollie-components.min.js",
+  "public/js/paypalButton.min.js": "/public/js/paypalButton.min.js",
+  "public/js/paypalButtonCart.min.js": "/public/js/paypalButtonCart.min.js",
+  "public/js/settings.min.js": "/public/js/settings.min.js"
+}
